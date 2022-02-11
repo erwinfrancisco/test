@@ -8,10 +8,13 @@
 </head>
 <body>
     <h1>Sincronizando archivos a github</h1>
-    <button id="boton" on="click">Presionar</button>
-    <p id="etiquetap">Hola este es mi primer parrafo</p>
+
+    <button id="boton" onclick="saludo()">Presionar</button>
+
+    <p id="etiquetap"></p>
+
     <span></span>
-    <script>
+    <script type="text/javascript">
         document.getElementById("boton").onclick(saludo())
         function saludo(){
             document.getElementById("etiquetap").innerHTML = "soy un saludo"
